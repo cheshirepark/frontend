@@ -23,6 +23,7 @@ jobs:
 
       - name: Execute Sync Engine
         # We point Node directly to the correct relative path from the root
+        working-directory: ./frontend
         run: node src/scripts/sync.js
         env:
           SANITY_PROJECT_ID: ${{ secrets.SANITY_PROJECT_ID }}
