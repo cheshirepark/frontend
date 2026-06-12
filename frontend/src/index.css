@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    /* Elegant Serifs for Headings, Clean Sans for data density */
+    --font-serif: "Playfair Display", "Georgia", serif;
+    --font-sans: "Inter", "system-ui", sans-serif;
+
+    /* Premium Institutional Mining Palette */
+    --color-mining-obsidian: #0f172a; /* Heavy slate-charcoal footer base */
+    --color-mining-abyss: #020617; /* Deep pitch black for market ticker */
+    --color-mining-gold: #7c6134; /* Metallic gold accent */
+    --color-mining-gold-hover: #b45309; /* Deep gold for hover transitions */
+    --color-mining-alabaster: #f8fafc; /* Soft layout neutral */
+    --color-mining-ash: #64748b; /* Muted utility text metadata */
+}
