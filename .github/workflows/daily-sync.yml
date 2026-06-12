@@ -15,9 +15,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
+          
       - name: Install Fetch and Sanity Core Client Dependencies
         run: npm install @sanity/client
+        
+      - name: Debug File Paths
+        run: ls -R
+        
 
       - name: Execute Sync Engine
         run: node src/scripts/sync.js
