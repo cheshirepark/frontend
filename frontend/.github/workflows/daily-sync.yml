@@ -1,0 +1,27 @@
+name: Daily Metal Prices Cache Sync
+on:
+  schedule:
+    - cron: "0 6 * * *" # Triggers daily at 6AM UTC
+  workflow_dispatch: # Allows you to press a button in GitHub to trigger it manually for testing
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v4
+
+      - name: Initialize Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Fetch and Sanity Core Client Dependencies
+        run: npm install @sanity/client
+
+      - name: Execute Sync Engine
+        run: node scripts/sync.js
+        env:
+          SANITY_PROJECT_ID: ${{ secrets.SANITY_PROJECT_ID }}
+          SANITY_WRITE_TOKEN: ${{ secrets.SANITY_WRITE_TOKEN }}
+          GOLDAPI_KEY: ${{ secrets.GOLDAPI_KEY }}

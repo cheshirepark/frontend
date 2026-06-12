@@ -6,8 +6,8 @@ export default function Footer() {
       title: "About Us",
       links: [
         { label: "Corporate Profile", href: "/about" },
-        { label: "Leadership Team", href: "/about#leadership" },
-        { label: "Governance & Policies", href: "/governance" },
+        { label: "Leadership Team", href: "/about/leadership" },
+        { label: "Business Model", href: "/about/business-model" },
       ],
     },
     {
@@ -19,7 +19,6 @@ export default function Footer() {
       links: [
         { label: "Financial Statements", href: "/investors" },
         { label: "Press Releases", href: "/news" },
-        { label: "Operational Media", href: "/news#media" },
       ],
     },
     {

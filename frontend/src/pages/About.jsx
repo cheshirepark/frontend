@@ -21,15 +21,15 @@ export default function About() {
       textClass: "text-slate-600",
       accent: "text-mining-obsidian",
     },
-    {
-      title: "Governance",
-      description:
-        "Upholding absolute accountability through deep transparency standards, regulatory compliance boards, and zero-harm operational frameworks.",
-      href: "/about/governance",
-      className: "md:col-span-1 bg-white border border-slate-200",
-      textClass: "text-slate-600",
-      accent: "text-mining-obsidian",
-    },
+    // {
+    //   title: "Governance",
+    //   description:
+    //     "Upholding absolute accountability through deep transparency standards, regulatory compliance boards, and zero-harm operational frameworks.",
+    //   href: "/about/governance",
+    //   className: "md:col-span-1 bg-white border border-slate-200",
+    //   textClass: "text-slate-600",
+    //   accent: "text-mining-obsidian",
+    // },
     {
       title: "Contact",
       description:
