@@ -17,14 +17,13 @@ jobs:
           node-version: 20
           
       - name: Install Fetch and Sanity Core Client Dependencies
+        # We add the working-directory flag so it installs dependencies inside your frontend folder
+        working-directory: ./frontend
         run: npm install @sanity/client
-        
-      - name: Debug File Paths
-        run: ls -R
-        
 
       - name: Execute Sync Engine
-        run: node src/scripts/sync.js
+        # We point Node directly to the correct relative path from the root
+        run: node frontend/src/scripts/sync.js
         env:
           SANITY_PROJECT_ID: ${{ secrets.SANITY_PROJECT_ID }}
           SANITY_WRITE_TOKEN: ${{ secrets.SANITY_WRITE_TOKEN }}
