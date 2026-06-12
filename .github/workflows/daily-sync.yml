@@ -2,7 +2,7 @@ name: Daily Metal Prices Cache Sync
 on:
   schedule:
     - cron: '0 6 * * *' # Triggers daily at 6AM UTC
-  workflow_dispatch: # Allows you to press a button in GitHub to trigger it manually for testing
+  workflow_dispatch: # Allows you to press a button in GitHub to trigger it manually
 
 jobs:
   sync:
@@ -15,16 +15,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          
+
       - name: Install Fetch and Sanity Core Client Dependencies
-        # We add the working-directory flag so it installs dependencies inside your frontend folder
         working-directory: ./frontend
         run: npm install @sanity/client
 
       - name: Execute Sync Engine
-        # We point Node directly to the correct relative path from the root
-        working-directory: ./frontend
-        run: node src/scripts/sync.js
+        # We run it directly from the repo root to preserve the secret payload mapping
+        run: node frontend/src/scripts/sync.js
         env:
           SANITY_PROJECT_ID: ${{ secrets.SANITY_PROJECT_ID }}
           SANITY_WRITE_TOKEN: ${{ secrets.SANITY_WRITE_TOKEN }}
