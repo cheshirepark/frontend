@@ -26,10 +26,10 @@ export default function Footer() {
       links: [
         { label: "Sustainability Topics", href: "/sustainability/topics" },
         { label: "Strategy and Goals", href: "/sustainability/strategy" },
-        {
-          label: "Reporting and Disclosures",
-          href: "/sustainability/reporting",
-        },
+        // {
+        //   label: "Reporting and Disclosures",
+        //   href: "/sustainability/reporting",
+        // },
       ],
     },
   ];
@@ -140,17 +140,11 @@ export default function Footer() {
             reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="/privacy" className="hover:text-slate-400">
-              Privacy Policy
+            <a href="/legal" className="hover:text-slate-400">
+              Legal
             </a>
             <a href="/about/contact" className="hover:text-slate-400">
               Contact Us
-            </a>
-            <a href="/terms" className="hover:text-slate-400">
-              Terms of Use
-            </a>
-            <a href="/disclaimer" className="hover:text-slate-400">
-              Regulatory Disclaimer
             </a>
           </div>
         </div>

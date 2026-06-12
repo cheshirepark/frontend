@@ -19,15 +19,15 @@ export default function Sustainability() {
       textClass: "text-slate-300",
       accent: "text-white",
     },
-    {
-      title: "Strategy & Goals",
-      description:
-        "Review our structured roadmap to 2030, highlighting net-zero emissions tracking maps, risk mitigation paths, and zero-harm operational targets.",
-      href: "/sustainability/strategy",
-      className: "md:col-span-1 bg-white border border-slate-200",
-      textClass: "text-slate-600",
-      accent: "text-mining-obsidian",
-    },
+    // {
+    //   title: "Strategy & Goals",
+    //   description:
+    //     "Review our structured roadmap to 2030, highlighting net-zero emissions tracking maps, risk mitigation paths, and zero-harm operational targets.",
+    //   href: "/sustainability/strategy",
+    //   className: "md:col-span-1 bg-white border border-slate-200",
+    //   textClass: "text-slate-600",
+    //   accent: "text-mining-obsidian",
+    // },
     {
       title: "Policies & Commitments",
       description:
@@ -37,16 +37,16 @@ export default function Sustainability() {
       textClass: "text-slate-600",
       accent: "text-mining-obsidian",
     },
-    {
-      title: "Reporting & Disclosure Portal",
-      description:
-        "Download formal ESG performance data archives, annual asset transparency logs, Global Reporting Initiative (GRI) sheets, and verified safety statistics.",
-      href: "/sustainability/reporting",
-      className:
-        "md:col-span-2 bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200",
-      textClass: "text-slate-600",
-      accent: "text-mining-gold",
-    },
+    // {
+    //   title: "Reporting & Disclosure Portal",
+    //   description:
+    //     "Download formal ESG performance data archives, annual asset transparency logs, Global Reporting Initiative (GRI) sheets, and verified safety statistics.",
+    //   href: "/sustainability/reporting",
+    //   className:
+    //     "md:col-span-2 bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200",
+    //   textClass: "text-slate-600",
+    //   accent: "text-mining-gold",
+    // },
   ];
 
   return (

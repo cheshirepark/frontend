@@ -42,7 +42,7 @@ export default function News() {
             year: item.year || dateObj.getFullYear().toString(),
           };
         });
-
+        console.log(dynamicPayload);
         setCorporateNewsStream(dynamicPayload);
       } catch (err) {
         console.error(
