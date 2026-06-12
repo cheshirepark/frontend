@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import logo from "../../assets/logo.png";
 export default function Header() {
   // Mobile drawer open state
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -73,7 +73,7 @@ export default function Header() {
         {/* Logo Left - Cleaned up for Cheshire Park Resources */}
         <a href="/" className="flex items-center h-full group z-50">
           <img
-            src="/src/assets/logo.png" // Adjust path based on your exact file location
+            src={logo} // Adjust path based on your exact file location
             alt="Cheshire Park Resources Ltd Logo"
             className="h-12 md:h-14 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.01]"
           />
