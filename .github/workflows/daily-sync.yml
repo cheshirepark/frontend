@@ -20,7 +20,7 @@ jobs:
         run: npm install @sanity/client
 
       - name: Execute Sync Engine
-        run: node scripts/sync.js
+        run: node src/scripts/sync.js
         env:
           SANITY_PROJECT_ID: ${{ secrets.SANITY_PROJECT_ID }}
           SANITY_WRITE_TOKEN: ${{ secrets.SANITY_WRITE_TOKEN }}
