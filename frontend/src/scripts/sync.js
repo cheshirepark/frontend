@@ -1,19 +1,17 @@
 import { createClient } from "@sanity/client";
 
 const sanityClient = createClient({
-  projectId: "bi3g57kt",
+  projectId: process.env.SANITY_PROJECT_ID,
   dataset: "production",
   useCdn: false,
-  token: "bi3g57kt",
+  token: process.env.SANITY_WRITE_TOKEN,
   apiVersion: "2026-06-08",
 });
 
 async function run() {
   try {
     const goldResponse = await fetch("https://www.goldapi.io/api/XAU/USD", {
-      headers: {
-        "x-access-token": "goldapi-76ccf48f191f8bcc2ac8f003e84a4713-io",
-      },
+      headers: { "x-access-token": process.env.GOLDAPI_KEY },
     });
     const goldData = await goldResponse.json();
 

@@ -38,7 +38,7 @@ export default function Header() {
 
   return (
     <header className="w-full border-b border-slate-200 bg-white sticky top-0 z-50 font-sans">
-      <div className="w-full bg-mining-abyss text-white text-[11px] font-medium tracking-wider py-2 px-6 md:px-12 flex justify-between items-center border-b border-slate-800">
+      {/* <div className="w-full bg-mining-abyss text-white text-[11px] font-medium tracking-wider py-2 px-6 md:px-12 flex justify-between items-center border-b border-slate-800">
         <div className="hidden sm:flex items-center space-x-2 text-mining-ash">
           <span>MARKET DATA (SERVER CACHED DAILY)</span>
           <span className="w-1 h-1 bg-slate-700 rounded-full"></span>
@@ -58,7 +58,7 @@ export default function Header() {
             </div>
           ))}
         </div>
-      </div>
+      </div>*/}
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between relative bg-white">
         <a href="/" className="flex items-center h-full group z-50">
