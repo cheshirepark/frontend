@@ -145,21 +145,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/50 z-0" />
 
         {/* Counter Matrix Columns */}
-        <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 text-center">
-          {/* Column One: Operational Assets */}
-          <div className="space-y-2 md:border-r md:border-slate-800 last:border-r-0 px-4">
-            <div className="flex justify-center items-baseline text-mining-gold">
-              <span className="font-mono text-2xl font-bold mr-0.5">0</span>
-              <MetricCounter targetValue="4" />
-            </div>
-            <span className="text-xs text-mining-ash uppercase tracking-widest font-bold block pt-1">
-              Active Tier-1 Streams
-            </span>
-            <p className="text-slate-400 text-xs max-w-xs mx-auto pt-2 leading-relaxed">
-              Highly secure precious metal pipelines structured across
-              productive West African fields.
-            </p>
-          </div>
+        <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8 text-center">
 
           {/* Column Two: Performance Metric */}
           <div className="space-y-2 md:border-r md:border-slate-800 last:border-r-0 px-4">
