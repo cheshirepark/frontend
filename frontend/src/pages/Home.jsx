@@ -65,13 +65,10 @@ export default function Home() {
             Cheshire Park Resources Ltd
           </span>
           <h1 className="font-serif text-3xl sm:text-4xl md:text-6xl text-white tracking-tight leading-tight mb-6 max-w-5xl">
-            Africa's Emerging Precious Metals Investment, Creating Sustainable
-            Value.
+            Unlocking Critical Precious Metals, Powering a Smarter Mining Future and Creating Substantial Value
           </h1>
           <p className="text-slate-300 text-sm md:text-lg leading-relaxed max-w-3xl font-normal">
-            Our industry-leading financial, technical, and ESG due diligence
-            practices help us unlock the value of precious metals buried within
-            traditional mining companies across key regional concessions.
+            We are a mining company focused on transforming the way mineral resources are explored, developed, and produced through the use of modern technology. By combining industry experience with innovation, advanced exploration methods, data-driven decision-making, and innovative extraction techniques. We aim to improve efficiency and sustainability while creating meaningful value.
           </p>
 
           {/* Action Anchors */}
@@ -105,22 +102,19 @@ export default function Home() {
 
           {/* Context Introduction Paragraph */}
           <p className="text-slate-600 text-sm md:text-base leading-relaxed max-w-3xl mx-auto mb-16">
-            We operate with a clear purpose to create value for all of our
-            stakeholders through sustainable and responsible business practices,
-            and to provide our shareholders with exposure to low-risk precious
-            metals production through:
+            We see an opportunity to move beyond conventional approaches and develop operations that are more connected, data-driven, efficient, safe, and environmentally responsible.
           </p>
 
           {/* Value Pillars Layout Matrix */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
             {[
-              "High-quality portfolio of low-cost, long-life assets",
-              "Significant organic growth opportunities and optionality",
-              "Significant expansion and exploration potential",
-              "Predictable costs with limited inflation exposure",
-              "Leverage to commodity prices",
-              "Progressive dividend policy",
-              "Commitment to sustainability",
+              "Technology-Driven Exploration",
+              "Data-Driven Decision Making",
+              "Innovative Approach",
+              "Long-Term Value Creation",
+              "Responsible Resource Development",
+              "Corporate Social Responsibility (CSR)",
+              "Efficient & Scalable Operations",
             ].map((pillar, index) => (
               <div
                 key={index}

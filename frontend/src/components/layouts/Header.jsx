@@ -65,7 +65,7 @@ export default function Header() {
           <img
             src={logo}
             alt="Cheshire Park Resources Ltd Logo"
-            className="h-12 md:h-14 w-auto object-contain"
+            className="h-18 md:h-18 w-auto object-contain"
           />
         </a>
 
