@@ -64,10 +64,10 @@ export default function Home() {
           <span className="text-xs uppercase tracking-[0.3em] text-mining-gold font-bold block mb-4 animate-pulse">
             Cheshire Park Resources Ltd
           </span>
-          <h1 className="font-serif text-4xl sm:text-4xl md:text-4xl text-white tracking-tight leading-tight mb-6 max-w-5xl">
+          <h1 className="font-serif text-5xl sm:text-5xl md:text-5xl text-white tracking-tight leading-tight mb-6 max-w-5xl">
             Unlocking Critical Precious Metals, Powering a Smarter Mining Future and Creating Substantial Value
           </h1>
-          <p className="text-slate-300 text-sm md:text-lg leading-relaxed max-w-3xl font-normal">
+          <p className="text-slate-300 text-sm md:text-sm leading-relaxed max-w-3xl font-normal">
             We are a mining company focused on transforming the way mineral resources are explored, developed, and produced through the use of modern technology. By combining industry experience with innovation, advanced exploration methods, data-driven decision-making, and innovative extraction techniques. We aim to improve efficiency and sustainability while creating meaningful value.
           </p>
 
