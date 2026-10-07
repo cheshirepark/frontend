@@ -64,7 +64,7 @@ export default function Home() {
           <span className="text-xs uppercase tracking-[0.3em] text-mining-gold font-bold block mb-4 animate-pulse">
             Cheshire Park Resources Ltd
           </span>
-          <h1 className="font-serif text-xl sm:text-4xl md:text-6xl text-white tracking-tight leading-tight mb-6 max-w-5xl">
+          <h1 className="font-serif text-xl sm:text-2xl md:text-2xl text-white tracking-tight leading-tight mb-6 max-w-5xl">
             Unlocking Critical Precious Metals, Powering a Smarter Mining Future and Creating Substantial Value
           </h1>
           <p className="text-slate-300 text-sm md:text-lg leading-relaxed max-w-3xl font-normal">
