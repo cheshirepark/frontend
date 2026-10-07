@@ -51,7 +51,7 @@ export default function Home() {
     <div className="w-full bg-mining-alabaster font-sans overflow-x-hidden">
       {/* 1. HIGH-END INSTITUTIONAL HERO ECOSYSTEM */}
       <section
-        className="relative w-full bg-cover bg-center bg-no-repeat py-36 md:py-48 px-6 md:px-12 bg-mining-obsidian flex items-center"
+        className="relative w-full bg-cover bg-center bg-no-repeat py-20 md:py-20 px-6 md:px-20 bg-mining-obsidian flex items-center"
         style={{
           backgroundImage: `url('https://images.unsplash.com/photo-1523848309072-c199db53f137?q=80&w=1600&auto=format&fit=crop')`,
         }}
