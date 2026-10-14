@@ -15,7 +15,7 @@ export default function About() {
     {
       title: "Leadership",
       description:
-        "Steered by executives with strategic vision, asset management expertise and extensive exploration experience inside West African Mineral rich fields. Through driving sustainable growth, operational excellence and responsible mining practices",
+        "Steered by executives with strategic vision, asset management expertise and extensive exploration experience inside West African Mineral rich fields. Through driving sustainable growth, operational excellence and responsible mining practices.",
       href: "/about/leadership",
       className: "md:col-span-1 bg-white border border-slate-200",
       textClass: "text-slate-600",
@@ -65,7 +65,7 @@ export default function About() {
           <span className="text-xs uppercase tracking-[0.25em] text-mining-gold font-bold block mb-3">
             Corporate Profile
           </span>
-          <h1 className="font-serif text-3xl md:text-5xl text-white tracking-tight mb-5 max-w-4xl leading-tight">
+          <h1 className="font-serif text-3xl md:text-4xl text-white tracking-tight mb-5 max-w-4xl leading-tight">
             Advancing Mining Through New Innovations and Technology Across West Africa. Implementing Advanced Technology To Increase And Enhance Production of Precious Metals.
           </h1>
           <p className="text-slate-300 text-sm md:text-base leading-relaxed max-w-3xl">
