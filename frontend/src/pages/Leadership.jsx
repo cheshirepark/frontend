@@ -55,12 +55,11 @@ export default function Leadership() {
             Company Management
           </span>
           <h1 className="font-serif text-3xl md:text-4xl text-mining-obsidian tracking-tight mb-4">
-            Leadership & Executive Council
+            Leadership Team
           </h1>
           <p className="text-slate-600 text-sm leading-relaxed">
-            Our operational steering committee balances decades of execution
-            strategy, logistical expertise, and rigorous risk oversight to
-            maximize asset value metrics safely.
+            Our leadership team brings together strategic vision and a strong commitment to safety, sustainability, and operational excellence. We guide our operations toward long-term growth.
+
           </p>
         </div>
 

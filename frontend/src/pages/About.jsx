@@ -6,7 +6,7 @@ export default function About() {
     {
       title: "Our Business Model",
       description:
-        "Unlocking localized value ecosystems by investing in downstream infrastructure, primary asset streaming models, and regional processing frameworks.",
+        "Mining is changing and we intend to be part of that change. By investing in people, technology, innovation, and responsible practices, W e are building a mining business designed not only for today's opportunities, but for the demands of tomorrow.",
       href: "/about/business-model",
       className: "md:col-span-2 bg-mining-obsidian text-white border-none",
       textClass: "text-slate-300",
@@ -15,7 +15,7 @@ export default function About() {
     {
       title: "Leadership",
       description:
-        "Steered by industry executives with decades of combined operations, asset management, and exploration history inside West African mineral fields.",
+        "Steered by executives with strategic vision, asset management expertise and extensive exploration experience inside West African Mineral rich fields. Through driving sustainable growth, operational excellence and responsible mining practices",
       href: "/about/leadership",
       className: "md:col-span-1 bg-white border border-slate-200",
       textClass: "text-slate-600",
@@ -66,22 +66,18 @@ export default function About() {
             Corporate Profile
           </span>
           <h1 className="font-serif text-3xl md:text-5xl text-white tracking-tight mb-5 max-w-4xl leading-tight">
-            The Premier Natural Resources Vehicle, Creating Sustainable Value
-            Across West Africa.
+            Advancing Mining Through New Innovations and Technology Across West Africa. Implementing Advanced Technology To Increase And Enhance Production of Precious Metals.
           </h1>
           <p className="text-slate-300 text-sm md:text-base leading-relaxed max-w-3xl">
-            At Cheshire Park Resources Ltd, we optimize resource acquisition
-            portfolios with precision. By applying elite asset due diligence,
-            global ESG principles, and downstream logistics coordination, we
-            secure stable mineral processing values hidden within traditional
-            mining models.
+            At Cheshire Park Resources Ltd, Our approach combines advanced technology, modern mining techniques and responsible Resource management to create a safer and more efficient mining operations. By applying elite asset due diligence backed with industry experience and modern technology, We will secure more metal production value hidden within traditional mining models.
+
           </p>
         </div>
       </section>
 
       {/* 2. Key High-End Metric Indicators */}
       <section className="bg-mining-abyss text-white py-12 px-6 md:px-12">
-        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-8 text-center md:text-left">
           <div className="border-l border-slate-800 pl-6">
             <span className="font-mono text-3xl font-bold text-mining-gold block">
               04
@@ -90,14 +86,7 @@ export default function About() {
               Active Assets
             </span>
           </div>
-          <div className="border-l border-slate-800 pl-6">
-            <span className="font-mono text-3xl font-bold text-mining-gold block">
-              Tier-1
-            </span>
-            <span className="text-[10px] text-mining-ash uppercase tracking-widest font-semibold mt-1 block">
-              Jurisdiction Rating
-            </span>
-          </div>
+
           <div className="border-l border-slate-800 pl-6">
             <span className="font-mono text-3xl font-bold text-white block">
               100%
@@ -108,7 +97,7 @@ export default function About() {
           </div>
           <div className="border-l border-slate-800 pl-6">
             <span className="font-mono text-3xl font-bold text-white block">
-              2030
+              2028
             </span>
             <span className="text-[10px] text-mining-ash uppercase tracking-widest font-semibold mt-1 block">
               Production Target Map

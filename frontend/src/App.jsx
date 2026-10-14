@@ -19,12 +19,9 @@ import About from "./pages/About";
 import Leadership from "./pages/Leadership";
 import Contact from "./pages/Contact";
 import LegalHub from "./pages/LegalHub";
+import BusinessModel from "./pages/BusinessModel"
 
-const BusinessModel = () => (
-  <div className="py-32 text-center text-xs uppercase tracking-widest font-sans font-semibold">
-    Our Business Model Workspace
-  </div>
-);
+
 
 const Governance = () => (
   <div className="py-32 text-center text-xs uppercase tracking-widest font-sans font-semibold">
