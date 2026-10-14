@@ -80,7 +80,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-8 text-center md:text-left">
           <div className="border-l border-slate-800 pl-6">
             <span className="font-mono text-3xl font-bold text-mining-gold block">
-              04
+              00
             </span>
             <span className="text-[10px] text-mining-ash uppercase tracking-widest font-semibold mt-1 block">
               Active Assets
