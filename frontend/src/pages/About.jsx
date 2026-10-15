@@ -6,7 +6,7 @@ export default function About() {
     {
       title: "Our Business Model",
       description:
-        "Mining is changing and we intend to be part of that change. By investing in people, technology, innovation, and responsible practices, W e are building a mining business designed not only for today's opportunities, but for the demands of tomorrow.",
+        "Mining is changing and we intend to be part of that change. By investing in people, technology, innovation, and responsible practices, We are building a mining business designed not only for today's opportunities, but for the demands of tomorrow.",
       href: "/about/business-model",
       className: "md:col-span-2 bg-mining-obsidian text-white border-none",
       textClass: "text-slate-300",
@@ -15,7 +15,7 @@ export default function About() {
     {
       title: "Leadership",
       description:
-        "Steered by executives with strategic vision, asset management expertise and extensive exploration experience inside West African Mineral rich fields. Through driving sustainable growth, operational excellence and responsible mining practices.",
+        "Steered by executives with strategic vision, asset management expertise and extensive exploration experience inside West African mineral rich fields. Through driving sustainable growth, operational excellence and responsible mining practices.",
       href: "/about/leadership",
       className: "md:col-span-1 bg-white border border-slate-200",
       textClass: "text-slate-600",
@@ -69,7 +69,7 @@ export default function About() {
             Advancing Mining Through New Innovations and Technology Across West Africa. Implementing Advanced Technology To Increase And Enhance Production of Precious Metals.
           </h1>
           <p className="text-slate-300 text-sm md:text-base leading-relaxed max-w-3xl">
-            At Cheshire Park Resources Ltd, Our approach combines advanced technology, modern mining techniques and responsible Resource management to create a safer and more efficient mining operations. By applying elite asset due diligence backed with industry experience and modern technology, We will secure more metal production value hidden within traditional mining models.
+            At Cheshire Park Resources Ltd, Our approach combines advanced technology, modern mining techniques and responsible resource management to create a safer and more efficient mining operations. By applying elite asset due diligence backed with industry experience and modern technology, We will secure more metal production value hidden within traditional mining models.
 
           </p>
         </div>

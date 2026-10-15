@@ -23,12 +23,12 @@ export default function BusinessModel() {
         </div>
 
         {/* 1. OUR GOAL */}
-        <div className="bg-mining-obsidian text-white p-8 md:p-12 border border-slate-800 shadow-sm relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-mining-gold/10 rounded-full blur-2xl pointer-events-none" />
+        <div className="bg-white border border-slate-200 p-8 md:p-10 shadow-sm hover:border-mining-gold transition-colors duration-200 flex flex-col justify-between">
+          <div className="absolute top-0 right-0 w-32 h-32 rounded-full blur-2xl pointer-events-none" />
           <span className="text-[10px] font-mono font-bold uppercase tracking-[0.2em] text-mining-gold mb-3 block">
             Our Goal
           </span>
-          <h2 className="font-serif text-2xl md:text-3xl font-bold tracking-tight text-white leading-relaxed">
+          <h2 className="text-slate-700 text-base md:text-lg leading-relaxed font-serif">
             To build a smarter, more efficient, and responsible mining company that creates lasting value from mineral resources.
           </h2>
         </div>
