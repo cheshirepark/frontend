@@ -164,18 +164,18 @@ export default function Home() {
           {/* Column Three: Long Term Target */}
           <div className="space-y-2 md:border-r md:border-slate-800 last:border-r-0 px-4">
             <div className="flex justify-center items-baseline text-white">
-              <MetricCounter targetValue="2030" />
+              <MetricCounter targetValue="2028" />
             </div>
             <span className="text-xs text-mining-ash uppercase tracking-widest font-bold block pt-1">
-              Strategic Growth Map
+               Strategic Growth Map
             </span>
             <p className="text-slate-400 text-xs max-w-xs mx-auto pt-2 leading-relaxed">
-              Target operational horizons built to buffer and sustain peak
-              institutional capital margins.
+              Focus is on scaling operations, optimizing resource extraction, and implementing efficient mining processes to achieve sustainable production growth.
             </p>
           </div>
         </div>
       </section>
+
 
       {/* 2. DYNAMIC CORPORATE NEWS STREAM INDEX COMPONENT */}
       <section className="w-full">
