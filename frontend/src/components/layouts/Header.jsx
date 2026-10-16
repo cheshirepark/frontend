@@ -13,8 +13,8 @@ export default function Header() {
   const navLinks = [
     { label: "About Us", href: "/about" },
     { label: "Portfolio & Assets", href: "/portfolio" },
-    { label: "Investors", href: "/investors" },
-    { label: "Sustainability", href: "/sustainability" },
+    // { label: "Investors", href: "/investors" },
+    // { label: "Sustainability", href: "/sustainability" },
     { label: "News & Media", href: "/news" },
   ];
 

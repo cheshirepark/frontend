@@ -14,31 +14,27 @@ export default function Footer() {
       title: "Portfolio",
       links: [{ label: "Active Mine Operations", href: "/portfolio" }],
     },
-    {
-      title: "Investors & News",
-      links: [
-        { label: "Financial Statements", href: "/investors" },
-        { label: "Press Releases", href: "/news" },
-      ],
-    },
-    {
-      title: "Sustainability",
-      links: [
-        { label: "Sustainability Topics", href: "/sustainability/topics" },
-        { label: "Strategy and Goals", href: "/sustainability/strategy" },
-        // {
-        //   label: "Reporting and Disclosures",
-        //   href: "/sustainability/reporting",
-        // },
-      ],
-    },
+    // {
+    //   title: "Investors & News",
+    //   links: [
+    //     { label: "Financial Statements", href: "/investors" },
+    //     { label: "Press Releases", href: "/news" },
+    //   ],
+    // },
+    // {
+    //   title: "Sustainability",
+    //   links: [
+    //     { label: "Sustainability Topics", href: "/sustainability/topics" },
+    //     { label: "Strategy and Goals", href: "/sustainability/strategy" },
+    //     // {
+    //     //   label: "Reporting and Disclosures",
+    //     //   href: "/sustainability/reporting",
+    //     // },
+    //   ],
+    // },
   ];
 
-  const socialMedia = [
-    { name: "X", link: "#", icon: "" },
-    { name: "Instagram", link: "#", icon: "" },
-    { name: "LinkedIn", link: "#", icon: "" },
-  ];
+
   return (
     <footer className="w-full bg-mining-obsidian text-slate-300 border-t border-slate-800 font-sans">
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-16">
